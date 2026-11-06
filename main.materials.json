@@ -1,0 +1,24 @@
+{
+  "cubemap_gtasa_ls_reflection" : {
+    "name" : "cubemap_gtasa_ls_reflection",
+    "class" : "CubemapData",
+    "cubeFace" : [
+      "/levels/gtasa_ls/art/cubemaps/cubemap_gtasa_ls_reflection/cubemap/skybox0.hdr.dds",
+      "/levels/gtasa_ls/art/cubemaps/cubemap_gtasa_ls_reflection/cubemap/skybox1.hdr.dds",
+      "/levels/gtasa_ls/art/cubemaps/cubemap_gtasa_ls_reflection/cubemap/skybox2.hdr.dds",
+      "/levels/gtasa_ls/art/cubemaps/cubemap_gtasa_ls_reflection/cubemap/skybox3.hdr.dds",
+      "/levels/gtasa_ls/art/cubemaps/cubemap_gtasa_ls_reflection/cubemap/skybox4.hdr.dds",
+      "/levels/gtasa_ls/art/cubemaps/cubemap_gtasa_ls_reflection/cubemap/skybox5.hdr.dds"
+    ]
+  },
+  "wca_reflection" : {
+    "name" : "wca_reflection",
+    "mapTo" : "unmapped_mat",
+    "class" : "Material",
+    "Stages" : [ {}, {}, {}, {} ],
+    "cubemap" : "cubemap_gtasa_ls_reflection",
+    "materialTag0" : "beamng",
+    "materialTag1" : "Natural",
+    "materialTag2" : "BNG_sky"
+  }
+}
