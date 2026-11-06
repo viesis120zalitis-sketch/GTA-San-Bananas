@@ -1,0 +1,45 @@
+{
+  "title": "GTA SA - Los Santos",
+  "description": "Los Santos is an urban wonderland with its Babel towers, labyrinth of criss-crossing freeways, side streets, rundown residential districts and glamorous neighbourhoods. Los Santos is a place where you can see it all and have it all. ",
+  "previews":[
+    "home.png",
+    "police_departament.png",
+    "hospital.png",
+    "airfield.png",
+    "hill_top.png"
+  ],
+  "size": [2048,2048],
+  "biome": "Town",
+  "roads": "100% Asphalt",
+  "suitablefor": "Cars, Boats",
+  "features": "beta",
+  "authors": "Nehil",
+  "defaultSpawnPointName":"home",
+  "spawnPoints":[
+    {
+      "translationId":"Here we go again",
+      "objectname":"home",
+      "preview":"home.png"
+    },
+    {
+      "translationId":"Police Departament",
+      "objectname":"police_departament",
+      "preview":"police_departament.png"
+    },
+    {
+      "translationId":"Hospital",
+      "objectname":"hospital",
+      "preview":"hospital.png"
+    },
+    {
+      "translationId":"AirFienld",
+      "objectname":"airfield",
+      "preview":"airfield.png"
+    },
+    {
+      "translationId":"Hill Top",
+      "objectname":"hill_top",
+      "preview":"hill_top.png"
+    }    
+  ],
+}
